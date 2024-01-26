@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <p>ceci est un paragraphe</p>
+            <p>Premier paragrahe</p>
         </div>
     );
 };
