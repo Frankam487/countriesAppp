@@ -3,7 +3,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Cards from "./Cards";
 
-
 const Home = () => {  
   const [countries, setCountries] = useState([]);
   useEffect(() => {
