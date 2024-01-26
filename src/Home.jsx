@@ -7,7 +7,6 @@ const Home = () => {
   const [countries, setCountries] = useState([]);
   useEffect(() => {
     fetch("https://restcountries.com/v3/all").then((response) => {
-      console.log(response);
       setCountries(response.data);
     });
   });
