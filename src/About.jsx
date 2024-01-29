@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="para"> 
+        <div className="paragraphh"> 
             <p>Premier paragrahe</p>
         </div>
         
