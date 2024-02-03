@@ -10,6 +10,7 @@ const Home = () => {
       setCountries(response.data);
     });
   });
+  
   return (
     <div className="home">
       <h1>Home</h1>
