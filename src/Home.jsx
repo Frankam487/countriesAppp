@@ -9,6 +9,7 @@ const Home = () => {
     fetch("https://restcountries.com/v3/all").then((response) => {
       setCountries(response.data);
     });
+    
   });
   
   return (
