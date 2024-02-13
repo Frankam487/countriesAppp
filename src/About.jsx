@@ -5,7 +5,6 @@ const About = () => {
             <p>Premier paragrahe</p>
         </div>
 
-        
     );
 };
 
